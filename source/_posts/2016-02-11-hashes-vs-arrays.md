@@ -1,14 +1,17 @@
 ---
 layout: post
-title: "The quick, brown fox jumps over a lazy dog"
-date: 2015-11-12 16:42:24
+title:  "Hashes vs. Arrays"
+date: 2016-02-11 16:08:24
 comments: true
-description: "The quick, brown fox jumps over a lazy dog"
-keywords: ""
+description: "What are they and when should you use them?"
+categories: jekyll update
+keywords: "programming"
 categories:
-- welcome
+- terminology
 tags:
-- welcome
+- hashes
+- arrays
+- terminology
 ---
 
 When should you use a hash in place of an array (and vice versa)?  What even are hashes and arrays in the first place?  Hint: hashes are not at all related to hash browns.
@@ -21,9 +24,9 @@ A hash is a collection of key-value pairs.  Maybe I spoke too soon…It seems as
 
 So, why would you use one instead of the other?  It really depends on the data.  If your data is ordered or if you might have duplicate values, then use an array.  If order doesn’t matter and all of your values must be unique, then use a hash.  Look-ups are usually faster in hashes as compared to arrays because they are based on arbitrary values instead of integers—instead of searching through every element of an array, the hash function can be used to quickly find the value once you have the key.
 
-Resource 1: http://ruby-doc.org/core-2.2.0/Hash.html 
-Resource 2: http://developeronline.blogspot.com/2008/04/why-array-index-should-start-from-0.html 
-Resource 3: http://ruby-doc.org/core-2.2.0/Array.html 
-Resource 4: http://stackoverflow.com/questions/6097637/whats-the-difference-between-arrays-and-hashes 
-Resource 5: https://www.codecademy.com/forum_questions/52a69117282ae3085d000d63
-Resource 6: http://stackoverflow.com/questions/25313658/when-is-it-better-to-use-an-array-instead-of-a-hash-in-perl  
+<a href="http://ruby-doc.org/core-2.2.0/Hash.html/"> Reference One: Hashes </a>
+<a href="http://developeronline.blogspot.com/2008/04/why-array-index-should-start-from-0.html/"> Reference Two: Why The Array Index Should Start From 0 </a>
+<a href="http://ruby-doc.org/core-2.2.0/Array.html/"> Reference Three: Arrays </a>
+<a href="http://stackoverflow.com/questions/6097637/whats-the-difference-between-arrays-and-hashes/"> Reference Four: What's the difference between arrays and hashes? </a>
+<a href="https://www.codecademy.com/forum_questions/52a69117282ae3085d000d63/"> Reference Five: Difference between Arrays and Hashes? </a>
+<a href="http://stackoverflow.com/questions/25313658/when-is-it-better-to-use-an-array-instead-of-a-hash-in-perl"> Reference Six: When is it better to use an array instead of a hash? </a>
